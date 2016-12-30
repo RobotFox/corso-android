@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PREMIMI"
+        android:id="@+id/buttonFragment"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cambia activity"
+        android:id="@+id/buttonChange"
+        android:layout_below="@+id/buttonFragment"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nessun pulsante premuto"
+        android:id="@+id/textViewActivity"
+        android:layout_below="@+id/buttonChange"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:textSize="25sp" />
+</RelativeLayout>

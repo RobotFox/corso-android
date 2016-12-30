@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "982739294271",
+    "project_id": "app-prova-login"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982739294271:android:c4f958f9d01cc0a8",
+        "android_client_info": {
+          "package_name": "inc.sam.googlelogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "982739294271-47oekqk5rth73jutmq7pp0uunq0ghapf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "inc.sam.googlelogin",
+            "certificate_hash": "3AA87914ECDA008DDE867D9C7EAED58D18706112"
+          }
+        },
+        {
+          "client_id": "982739294271-ecuj5rth6br3uv8opfsgob06h47vnisj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVYYCrZrTfmJoFSrgpiU7tOs0sAybqvH4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

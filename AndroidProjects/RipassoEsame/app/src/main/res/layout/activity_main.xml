@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.its.pretto.samuele.ripassoesame.MainActivity">
+
+    <Button
+        android:text="CAMERA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="53dp"
+        android:id="@+id/buttonCamera" />
+
+    <Button
+        android:text="STORAGE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/buttonCamera"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="42dp"
+        android:id="@+id/buttonStorage" />
+
+    <Button
+        android:text="ACTIVITY B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonCamera"
+        android:layout_alignEnd="@+id/buttonCamera"
+        android:layout_marginTop="74dp"
+        android:id="@+id/buttonActivityB" />
+
+    <Button
+        android:text="Activity C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/buttonActivityB"
+        android:layout_alignEnd="@+id/buttonStorage"
+        android:id="@+id/buttonActivityC" />
+
+    <Button
+        android:text="Activity D"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonActivityB"
+        android:layout_alignStart="@+id/buttonActivityB"
+        android:layout_marginTop="92dp"
+        android:id="@+id/buttonActivityD" />
+
+</RelativeLayout>
